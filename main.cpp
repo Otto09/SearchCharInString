@@ -18,12 +18,12 @@ int main()
     return 0;
 }
 
- int cautCar(char email[], char valoare)//Numarul de caractere nu se transmite
+ int cautCar(char email[], char valoare)//The number of characters is not transmitted
 {
     int i;
 
     for (i = 0; i < strlen(email); i++)
         if (email[i] == valoare)
             return i;
-    return -1;//Nu s-a gasit
+    return -1;//Not found
 }
